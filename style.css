@@ -448,12 +448,12 @@ input[type="range"]::-moz-range-thumb {
   border-top: 1px solid var(--line);
 }
 
-@keyframes marquee { to { transform: translateX(-50%); } }
-@keyframes spin    { to { transform: rotate(360deg); } }
+/* @keyframes marquee { to { transform: translateX(-50%); } }
+@keyframes spin    { to { transform: rotate(360deg); } } */
 
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   .marquee-track, .hero-title .asterisk { animation: none; }
-}
+} */
 
 @media (max-width: 960px) {
   .container { padding-inline: 20px; }
